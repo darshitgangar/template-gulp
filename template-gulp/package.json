@@ -1,0 +1,11 @@
+{
+  "name": "template-gulp",
+  "version": "1.0.0",
+  "description": "list of basic npm packages",
+  "main": "gulpfile.js",
+  "author": "Darshit Gangar",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gulp": "3.9.1"
+  }
+}

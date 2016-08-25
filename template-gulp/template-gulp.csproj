@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="gulpfile.js" />
+    <Content Include="scripts\app.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +67,11 @@
   <ItemGroup>
     <Content Include="package.json" />
     <Content Include="bower.json" />
+    <Content Include="styles\vendor.scss" />
+    <Content Include="styles\customvars.scss" />
+    <Content Include="styles\app.scss" />
+    <Content Include=".jshintrc" />
+    <Content Include=".scss-lint.yml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,8 +80,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Scripts\" />
-    <Folder Include="Styles\" />
+    <Folder Include="styles\scss\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -121,7 +121,7 @@
             .pipe(gulp.dest(path.dest.js));
 	});
 
-	// Concatenate & minify vendor SCSS files task
+	// Compile minified vendor SCSS files task
 	gulp.task('vendorMinCss', function () {
 		return gulp.src(path.src.vendorScss)
             .pipe(sass({

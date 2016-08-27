@@ -13,7 +13,8 @@
 			js: 'build/js',
 			css: 'build/css',
 			vendorJs: 'build/vendor/js',
-			vendorCss: 'build/vendor/css'
+			vendorCss: 'build/vendor/css',
+			reports: './reports'
 		}
 	};
 
@@ -59,9 +60,9 @@
             .pipe(plumber())
             .pipe(scsslint({
             	'maxBuffer': 30720000,
-            	'filePipeOutput': 'scssReport.json'
+            	'filePipeOutput': 'scsslintReport.json'
             }))
-            .pipe(gulp.dest('./reports'));
+            .pipe(gulp.dest(path.dest.reports));
 	});
 
 	// SCSS lint task

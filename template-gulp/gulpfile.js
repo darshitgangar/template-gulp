@@ -65,6 +65,18 @@
             .pipe(gulp.dest(path.dest.reports));
 	});
 
+	// JS hint reporting task (this requires "reports" folder to be created beforehand)
+	gulp.task('jsHintReport', function () {
+		return gulp.src(path.src.js)
+            .on('error', gutil.log)
+            .pipe(plumber())
+            .pipe(jshint('.jshintrc'))
+			.pipe(jshint.reporter('jshint-stylish'))
+			.pipe(jshint.reporter('gulp-jshint-file-reporter', {
+            	filename: path.dest.reports + '/jshintReport.log'
+            }));
+	});
+
 	// SCSS lint task
 	gulp.task('scssLint', function () {
 		return gulp.src(path.src.scss)

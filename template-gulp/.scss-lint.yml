@@ -1,0 +1,45 @@
+exclude: ["./styles/scss/**/app.scss"]
+
+severity: warning
+
+linters:
+  BorderZero:
+    enabled: false
+
+  Indentation:
+    width: 1
+    character: tab
+
+  SelectorFormat:
+    enabled: false
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 5
+
+  EmptyLineBetweenBlocks:
+    enabled: false
+
+  LeadingZero:
+    enabled: false
+
+  PropertySortOrder:
+    enabled: false
+
+  Comment:
+    enabled: false
+
+  IdSelector:
+    enabled: false
+
+  QualifyingElement:
+    enabled: false
+
+  NestingDepth:
+    max_depth: 6
+
+  HexLength:
+    style: long
+
+  VendorPrefix:
+    excluded_identifiers: ['linear-gradient', 'filter']

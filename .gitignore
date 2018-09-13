@@ -1,0 +1,10 @@
+# Node Modules and Bower Components
+template-gulp/bower_components
+template-gulp/node_modules
+
+# Build and Object files
+template-gulp/build
+template-gulp/obj
+
+# Other files
+template-gulp/template-gulp.v12.suo

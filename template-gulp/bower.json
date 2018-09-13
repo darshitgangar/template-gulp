@@ -14,7 +14,8 @@
     "bower_components"
   ],
   "dependencies": {
-    "jquery": "3.1.0",
-    "bootstrap-sass": "3.3.7"
+    "jquery": "^3.1.0",
+    "bootstrap-sass": "^3.3.7",
+    "angular": "angular2#^1.5.8"
   }
 }

@@ -5,6 +5,14 @@
   "main": "gulpfile.js",
   "author": "Darshit Gangar",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/darshitgangar/template-gulp.git"
+  },
+  "engines": {
+    "node": "~0.10.0 || >=8.0.0"
+  },
+  "engineStrict": true,
   "dependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",

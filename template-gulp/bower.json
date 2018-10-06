@@ -1,12 +1,12 @@
 {
   "name": "template-gulp",
   "description": "list of basic bower packages",
-  "main": "",
+  "main": "gulpfile.js",
   "authors": [
     "Darshit Gangar"
   ],
   "license": "UNLICENSED",
-  "homepage": "",
+  "homepage": "https://github.com/darshitgangar/template-gulp#readme",
   "private": true,
   "ignore": [
     "**/.*",

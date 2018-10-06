@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "list of basic npm packages",
   "main": "gulpfile.js",
-  "author": "Darshit Gangar",
-  "license": "UNLICENSED",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/darshitgangar/template-gulp.git"
+    "url": "git+https://github.com/darshitgangar/template-gulp.git"
   },
-  "engines": {
-    "node": "~0.10.0 || >=8.0.0"
+  "author": "Darshit Gangar",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/darshitgangar/template-gulp/issues"
   },
-  "engineStrict": true,
+  "homepage": "https://github.com/darshitgangar/template-gulp#readme",
   "dependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
